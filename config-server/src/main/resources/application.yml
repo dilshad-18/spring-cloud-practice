@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///E:/java-microservice-practice/spring-cloud-demo
+management:
+  security:
+    enabled: false
