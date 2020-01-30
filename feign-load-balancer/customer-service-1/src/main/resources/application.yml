@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: customer-service
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
